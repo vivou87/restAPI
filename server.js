@@ -8,7 +8,7 @@ let DB = process.env.DB;
 
 mongoose
   .connect(
-    `mongodb+srv://gmcws2024:${DB}@cluster0.4dmpkdc.mongodb.net/gmc?retryWrites=true&w=majority`
+    `mongodb+srv://olfakouki:${DB}@cluster0.hwolmml.mongodb.net/?retryWrites=true&w=majority`
   )
   .then(() => console.log("Connected to db"))
   .catch((err) => console.log(err));
